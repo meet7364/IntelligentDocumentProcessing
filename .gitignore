@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data and trained model artifacts (large, not committed)
+data/
+models/artifacts/
+
+# OS
+.DS_Store
+*.ipynb_checkpoints
+
+# Stray archive artifacts (e.g. from manual upload attempts)
+*.zip
+
+# Personal interview-prep doc, not meant for the public repo
+explanation.pdf
+explanation.md
